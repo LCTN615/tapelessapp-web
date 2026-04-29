@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-ink: #111418;
+  --color-volt: #D6FF3D;
+  --color-tick: #1E3A8A;
+  --color-graphite: #6B7280;
+  --color-paper: #F5F2EA;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-ink);
+  color: white;
+}
+
+::selection {
+  background: var(--color-volt);
+  color: var(--color-ink);
+}
